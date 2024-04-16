@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      h1{
+        text-align: center;
+        text-transform: capitalize;
+        text-shadow: 2px 2px 2px #04AA6D;
+      }
+        .rating {
+    display: flex;
+  flex-direction:column;
+    max-width: 500px;
+    max-height: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+  
+
+
+
+.rating label {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+
+
+.rating label {
+  color: #363636;;
+}
+
+
+.nextprev a.w3-right, .nextprev a.w3-left {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border: 20px;
+    border-color: #04AA6D;
+    
+    
+}
+.nextprev a {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.w3-right {
+    float: right !important;
+}
+.w3-btn, .w3-button {
+    border: none;
+   display: inline-block;  
+   padding: 8px 16px;
+  vertical-align:middle;
+  
+    text-decoration: none;
+    text-align: center;
+    cursor:pointer;
+    white-space: nowrap;
+}
+
+
+    </style>
+</head>
+<div class="rating">
+  <h1>over all rating</h1>
+    <label for="satisfied-very">
+      <input type="radio" id="satisfied-very" name="satisfaction" value="very-satisfied">
+      Very Satisfied
+    </label>
+    <label for="satisfied">
+      <input type="radio" id="satisfied" name="satisfaction" value="satisfied">
+      Satisfied
+    </label>
+    <label for="neutral">
+      <input type="radio" id="neutral" name="satisfaction" value="neutral">
+      Neutral
+    </label>
+    <label for="unsatisfied">
+      <input type="radio" id="unsatisfied" name="satisfaction" value="unsatisfied">
+      Unsatisfied
+    </label>
+    <label for="unsatisfied-very">
+      <input type="radio" id="unsatisfied-very" name="satisfaction" value="very-unsatisfied">
+      Very Unsatisfied
+    </label>
+   <div class="w3-clear nextprev">
+    <a class="w3-left w3-btn" href="./index.html">❮ Home</a>
+    <a class="w3-right w3-btn" href="./rating.html">Next ❯</a>
+    </div>
+  </div>
+</html>
